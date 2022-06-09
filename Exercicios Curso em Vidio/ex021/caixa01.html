@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de caixas</title>
+    <style>
+        h1{
+            background-color: red;
+            height: 300px;
+            width: 300px;
+            /* Ordem do short hand
+            border-width: 10px;
+            border-style: solid;
+            border-color: aqua;*/
+
+            border: 10px solid aqua;
+
+            /* Ordem do short hand
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            */
+            /*quando os 10 valores forem iguais e so colocar 1*/
+            padding: 10px;
+
+            /* Ordem do short hand
+            margin-top: 10px;
+            margin-right: 10px;
+            margin-bottom: 40px;
+            margin-left: 10px;
+            */
+
+            /*Da para centralizar usando o auto nos valores da esquerda e da direita*/
+
+            margin: 10px auto 40px auto;
+
+            /* Ordem do short hand
+            outline-width: 5px;
+            outline-style: dashed;
+            outline-color: salmon;
+            */
+
+            outline: 5px dashed salmon;
+        }
+        a{
+            /*border-width: 10px;
+            border-style: solid;
+            border-color: blue;*/
+
+            border: 10px solid blue;
+            
+            /*padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;*/
+
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de caixa Box-level</h1>
+    <p>Paragafos sao exemplos de Box-levels mais os <a href="#">Mais os links sao exemplos de caixas inline-level</a>vamos ver como tudo isso funciona</p>
+</body>
+</html>

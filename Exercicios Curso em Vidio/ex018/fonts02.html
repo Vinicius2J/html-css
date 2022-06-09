@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fonts externas</title>
+    <style>
+        @font-face {
+            font-family: 'Demo';
+            src: url('Irish\ Clovers\ Demo.otf') format('opentype'), url('Irish\ Clovers\ Demo.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+
+            /*
+            tipos de format()
+            - opentype (quando for otf & tem fonts opentipe que tambem sao ttf tem que testa ou pesquisar)
+            - truetype (quando for ttf)
+            - embedded-opentype
+            - truetype-att (Apple Advanced typography)
+            - svg
+            */
+        }
+        body {
+            font-family: sans-serif;
+        }
+        h1 {
+            font-family: 'Demo', sans-serif;
+            font-size: 3em;
+            font-style: normal;
+        }
+    </style>
+</head>
+<body>
+    <h1>Titulo</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita, impedit tempora ipsam, ab, repudiandae cum distinctio iusto corrupti quis nesciunt at placeat commodi nostrum ducimus? Reiciendis tempore quod corrupti sint?</p>
+</body>
+</html>
