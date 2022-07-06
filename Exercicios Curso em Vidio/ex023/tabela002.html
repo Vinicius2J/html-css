@@ -30,9 +30,19 @@
             background-color: lightgray;
         }
 
+        tbody tr:nth-child(2n) {
+            background-color: lightgray;
+        }
+
         thead, tfoot {
             background-color: gray;
             color: white;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: gray;
         }
 
         table {
@@ -40,6 +50,7 @@
             width: 500px;
             height: 200px;
             margin: auto;
+            position: relative;
         }
 
         td.num {
